@@ -1,0 +1,102 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --color-background: hsl(var(--background));
+  --color-foreground: hsl(var(--foreground));
+  --color-card: hsl(var(--card));
+  --color-card-foreground: hsl(var(--card-foreground));
+  --color-popover: hsl(var(--popover));
+  --color-popover-foreground: hsl(var(--popover-foreground));
+  --color-primary: hsl(var(--primary));
+  --color-primary-foreground: hsl(var(--primary-foreground));
+  --color-secondary: hsl(var(--secondary));
+  --color-secondary-foreground: hsl(var(--secondary-foreground));
+  --color-muted: hsl(var(--muted));
+  --color-muted-foreground: hsl(var(--muted-foreground));
+  --color-accent: hsl(var(--accent));
+  --color-accent-foreground: hsl(var(--accent-foreground));
+  --color-destructive: hsl(var(--destructive));
+  --color-destructive-foreground: hsl(var(--destructive-foreground));
+  --color-border: hsl(var(--border));
+  --color-input: hsl(var(--input));
+  --color-ring: hsl(var(--ring));
+  
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+
+  --font-serif: 'Playfair Display', serif;
+  --font-sans: 'Cormorant Garamond', serif; /* Using Cormorant as base text as requested */
+  --font-body: 'Cormorant Garamond', serif; 
+}
+
+/* LIGHT MODE */
+:root {
+  /* Brand Colors */
+  --color-blush: 19 36% 72%;      /* #CE9FAE */
+  --color-espresso: 25 79% 8%;    /* #231104 */
+  --color-gold-beige: 44 45% 76%; /* #DDCEA6 */
+  --color-palm-green: 79 33% 37%; /* #6B7F40 */
+  --color-white: 0 0% 100%;       /* #FFFFFF */
+  --color-black: 0 0% 0%;         /* #000000 */
+
+  --background: var(--color-white);
+  --foreground: var(--color-espresso);
+
+  --card: var(--color-white);
+  --card-foreground: var(--color-espresso);
+
+  --popover: var(--color-white);
+  --popover-foreground: var(--color-espresso);
+
+  --primary: var(--color-espresso);
+  --primary-foreground: var(--color-gold-beige);
+
+  --secondary: var(--color-gold-beige);
+  --secondary-foreground: var(--color-espresso);
+
+  --muted: 44 45% 90%; /* Lighter version of gold beige */
+  --muted-foreground: 25 20% 40%;
+
+  --accent: var(--color-blush);
+  --accent-foreground: var(--color-espresso);
+
+  --destructive: 0 84.2% 60.2%;
+  --destructive-foreground: 0 0% 98%;
+
+  --border: 44 45% 85%;
+  --input: 44 45% 85%;
+  --ring: var(--color-blush);
+
+  --radius: 0.25rem;
+}
+
+.dark {
+  /* No dark mode for this brand, it demands light and airy */
+  --background: var(--color-espresso);
+  --foreground: var(--color-gold-beige);
+  /* Keeping it simple for now, focusing on light mode excellence */
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply font-body antialiased bg-background text-foreground;
+    font-size: 1.125rem; /* Slightly larger base size for elegance */
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif font-medium tracking-tight;
+  }
+}
+
+@layer utilities {
+  .font-bellerif-alt {
+    font-family: 'Playfair Display', serif;
+  }
+}
