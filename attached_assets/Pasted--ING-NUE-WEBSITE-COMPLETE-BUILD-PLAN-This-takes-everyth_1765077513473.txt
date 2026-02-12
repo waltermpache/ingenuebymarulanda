@@ -1,0 +1,227 @@
+🌴 INGÉNUE WEBSITE — COMPLETE BUILD PLAN
+This takes everything you wrote and turns it into a real, build-ready structure.
+
+1. BRAND POSITIONING
+Already beautifully defined:
+“Curated Latin American Designers for the Palm Beach Lifestyle.”
+The identity will guide all design:
+ Feminine • Sophisticated • Palm Beach Chic • Latin American Flair • Modern Luxury
+
+
+
+Brand colors:
+#CE9FAE blush rose
+
+
+#231104 deep brown espresso
+
+
+#DDCEA6 warm gold-beige
+
+
+#6B7F40 palm green
+
+
+#FFFFFF white
+
+
+#000000 black for contrast
+
+
+
+2. HOME PAGE (FULL WIREFRAME + COPY)
+HERO SECTION — Full Screen Video or Photo
+Video plays seamlessly (your Dropbox video works perfectly for it).
+Text Overlay:
+Curated Latin American Designers for the Palm Beach Lifestyle.
+Button:
+Shop the Collection
+SECTION: Shop by Lifestyle (6 tiles)
+Large editorial tiles:
+Gala
+
+
+Yacht Party
+
+
+White Party
+
+
+Tea & Luncheons
+
+
+Resort & Daywear
+
+
+Elegant Everyday Style
+
+
+Each tile links to a curated category.
+SECTION: Designer Spotlight
+Left = text
+ Right = portrait-style designer/product image
+Text:
+Featuring Artisans and Designers from Across Latin America
+SECTION: Visit the Boutique
+Soft cream background, full-width photo.
+Text:
+The Boutique Experience
+ Visit us in West Palm Beach
+SECTION: Newsletter
+Palm green accents.
+
+3. WEBSITE STRUCTURE (PAGE-BY-PAGE)
+MAIN NAVIGATION
+🌴 Shop by Lifestyle
+ 👗 Designers
+ 📸 Lookbook
+ 🌺 About
+ 🛍 Visit Us
+ 🛒 Cart
+
+SHOP BY LIFESTYLE (Dropdown)
+Instead of generic categories:
+Gala & Black Tie
+
+
+Yacht Party
+
+
+White Party Looks
+
+
+Cocktail & Evening
+
+
+Tea & Afternoon Luncheons
+
+
+Palm Beach Daywear
+
+
+Resort & Vacation
+
+
+Accessories
+
+
+Each page has:
+A hero image
+
+
+Filters
+
+
+Product grid
+
+
+Palm Beach-inspired editorial copy
+
+
+
+DESIGNERS PAGE
+This should be stunning.
+Grid showing:
+Designer Name
+
+
+Country
+
+
+Signature image
+
+
+Click → Designer Profile page:
+Designer Profile Template
+Hero portrait
+
+
+Country origin badge
+
+
+Why Cristina curated them (your voice)
+
+
+Gallery of pieces
+
+
+“Shop This Designer” button
+
+
+
+LOOKBOOK
+Editorial themes as separate collections:
+Palm Beach Gala Night
+
+
+Yacht Chic
+
+
+Tea & Gardens
+
+
+The White Party Edit
+
+
+Resort Dreams
+
+
+Magazine-style layouts.
+
+ABOUT PAGE (Your exact text formatted beautifully)
+Your narrative is exceptional already.
+ I will refine it into a luxury-branded About page layout.
+Sections:
+1. Welcome to Ingenue
+Short intro + full-width image
+2. Cristina’s Vision
+Soft blush background
+3. The Latin American Artistry
+A grid of countries represented
+4. The Palm Beach Lifestyle
+Editorial photos
+5. The Boutique
+Call to visit the storefront
+
+4. STYLE & AESTHETIC SYSTEM (Design System)
+Color Palette
+Using your brandbook colors:
+Color
+Hex
+Use
+Blush
+#CE9FAE
+accents / CTAs
+Espresso
+#231104
+titles
+Gold Beige
+#DDCEA6
+backgrounds
+Palm Green
+#6B7F40
+section accents
+White
+#FFFFFF
+clean backgrounds
+Black
+#000000
+body copy
+
+Typography
+Titles Bellerif (font) base text Cormorand Garamond (font)
+Button Style
+Soft cream background (#DDCEA6) with serif titles.
+Photography Style
+Consistent with your IG + Dropbox:
+Soft golden light
+
+
+Palm Beach architecture
+
+
+Feminine, clean, editorial
+
+
+Latin American flair
+
